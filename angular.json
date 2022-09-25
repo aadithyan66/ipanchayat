@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "employee-app": {
+    "iPanchayat": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/employee-app",
+            "outputPath": "dist/i-panchayat",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "employee-app:build:production"
+              "browserTarget": "iPanchayat:build:production"
             },
             "development": {
-              "browserTarget": "employee-app:build:development"
+              "browserTarget": "iPanchayat:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "employee-app:build"
+            "browserTarget": "iPanchayat:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "51944c13-73c2-483a-80db-b329ef8c2a7a"
+    "analytics": "dac44dfe-c62e-4bfa-aa4e-e221e6d74daa"
   }
 }

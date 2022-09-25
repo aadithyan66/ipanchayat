@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div class="row g-3">
+         <form #adminregister="ngForm" (ngSubmit)="Asignup()">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+              <h3>ADMIN SIGNUP</h3>
+      
+              <label for="" class="form-label">Name:</label>
+              <input type="text" class="form-control" [(ngModel)]="data1.adminname" name="adminname">
+            
+            
+              <label for="" class="form-label">Address:</label>
+             <textarea cols="30" rows="10" class="form-control" [(ngModel)]="data1.adminaddress" name="adminaddress"></textarea>
+            
+             <label for="" class="form-label">Voter's ID:</label>
+             <input type="text" class="form-control" [(ngModel)]="data1.adminvoterid" name="adminvoterid">
+            
+            
+             <label for="" class="form-label">Position:</label>
+             <input type="text" class="form-control" [(ngModel)]="data1.adminposition" name="adminposition">
+            
+            
+             <label for="" class="form-label">Password:</label>
+             <input type="password" class="form-control" [(ngModel)]="data1.adminpassword" name="adminpassword">
+            
+           
+             <button class="btn btn-warning">REGISTER</button>
+              </div>
+          </form>
+    </div>
+  </div>
+</div>
+</div>
